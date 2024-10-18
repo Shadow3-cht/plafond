@@ -1,0 +1,40 @@
+<html><head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>QG - Votre Espace de Discussion</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+<div class="app-container">
+    <header>
+        <div class="logo">QG</div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </header>
+
+    <nav id="sideMenu">
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#profile">Profil</a></li>
+            <li><a href="#settings">Paramètres</a></li>
+            <li><a href="#logout">Déconnexion</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>Discussion QG</h2>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <!-- Les messages seront ajoutés ici dynamiquement -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Tapez votre message...">
+                <button id="sendButton">Envoyer</button>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="script.js">
+   
+</script>
+</body></html>
